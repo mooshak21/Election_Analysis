@@ -10,27 +10,27 @@ For this analysis, a Colorado Board of Election employee wants our help to audit
 
 ## Election-Audit Results
 Below we can see the overall output from running our script:
-![](https://github.com/mooshak21/Election_Analysis/tree/main/Resources/D2.png)
+![](https://github.com/mooshak21/Election_Analysis/blob/main/Resources/D2.png)
 
 - How many votes were cast in this congressional election?
 > After running our program, we can see that the total number of votes were 369,711
-![](https://github.com/mooshak21/Election_Analysis/tree/main/Resources/total_votes.png)
+![](https://github.com/mooshak21/Election_Analysis/blob/main/Resources/total_votes.png)
 
 - Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
 > The provided image shows the breakdown and the percentage of total votes for each county
-![](https://github.com/mooshak21/Election_Analysis/tree/main/Resources/county_votes.png)
+![](https://github.com/mooshak21/Election_Analysis/blob/main/Resources/county_votes.png)
 
 - Which county had the largest number of votes?
 > Denver had the most votes with 306,055
-![](https://github.com/mooshak21/Election_Analysis/tree/main/Resources/largest_turnout.png)
+![](https://github.com/mooshak21/Election_Analysis/blob/main/Resources/largest_turnout.png)
 
 - Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
 > The provided image shows the breakdown and the percentage of total votes for each candidate
-![](https://github.com/mooshak21/Election_Analysis/tree/main/Resources/candidate_votes.png)
+![](https://github.com/mooshak21/Election_Analysis/blob/main/Resources/candidate_votes.png)
 
 - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 > The provided image shows the breakdown of the winner's statistics
-![](https://github.com/mooshak21/Election_Analysis/tree/main/Resources/winner_breakdown.png)
+![](https://github.com/mooshak21/Election_Analysis/blob/main/Resources/winner_breakdown.png)
 
 ## Summary
 ### Proposal
