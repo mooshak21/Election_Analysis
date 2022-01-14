@@ -1,6 +1,3 @@
-# -*- coding: UTF-8 -*-
-"""PyPoll Homework Challenge Solution."""
-
 # Add our dependencies.
 import csv
 import os
@@ -19,35 +16,20 @@ with open(file_to_load) as election_data:
     headers = next(file_reader)
 
     #Storing rows in a list
-    rows = []
-    for row in file_reader:
-        rows.append(row)
+    rows = [i for i in file_reader]
 
     # Total vote count
     total_votes = len(rows)
 
     #Make a list (set) of all candidates who received votes
-    candidates = []
-    for i in rows:
-        candidates[i[2]] = i
-        
-        
-
-
+    candidates = {i[2] for i in rows}
     
     # Create a county list (set) and county votes dictionary.
-    counties = {}
-    for i in rows:
-        counties[i[1]] = i
+    counties = {i[1] for i in rows}
 
 # Name dictionary for votes per candidate and county
 #votes_each_candidate = dict((name, sum(1 for i in rows if name in i)) for name in candidates)
-votes_each_candidate = {}
-for i in rows:
-    for name in candidates: 
-        if name in i:
-            votes_each_candidate[name] += 1
-
+votes_each_candidate = dict((name, sum(1 for i in rows if name in i)) for name in candidates)
 votes_each_county = dict((name, sum(1 for i in rows if name in i)) for name in counties)
 
 
